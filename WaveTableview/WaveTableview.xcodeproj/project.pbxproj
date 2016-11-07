@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A9AEE01A0C4DDF008CC2C0 /* WXWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9AEDF1A0C4DDF008CC2C0 /* WXWaveView.m */; };
 		18F7B8EC1DCF430E00DB887D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7B8EB1DCF430E00DB887D /* main.m */; };
 		18F7B8EF1DCF430E00DB887D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7B8EE1DCF430E00DB887D /* AppDelegate.m */; };
 		18F7B8F21DCF430E00DB887D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7B8F11DCF430E00DB887D /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18A9AEDE1A0C4DDF008CC2C0 /* WXWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXWaveView.h; sourceTree = "<group>"; };
+		18A9AEDF1A0C4DDF008CC2C0 /* WXWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXWaveView.m; sourceTree = "<group>"; };
 		18F7B8E71DCF430E00DB887D /* WaveTableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveTableview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F7B8EB1DCF430E00DB887D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18F7B8ED1DCF430E00DB887D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18A9AEDD1A0C4DAC008CC2C0 /* Wave */ = {
+			isa = PBXGroup;
+			children = (
+				18A9AEDE1A0C4DDF008CC2C0 /* WXWaveView.h */,
+				18A9AEDF1A0C4DDF008CC2C0 /* WXWaveView.m */,
+			);
+			name = Wave;
+			sourceTree = "<group>";
+		};
 		18F7B8DE1DCF430D00DB887D = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +72,7 @@
 		18F7B8E91DCF430E00DB887D /* WaveTableview */ = {
 			isa = PBXGroup;
 			children = (
+				18A9AEDD1A0C4DAC008CC2C0 /* Wave */,
 				18F7B8ED1DCF430E00DB887D /* AppDelegate.h */,
 				18F7B8EE1DCF430E00DB887D /* AppDelegate.m */,
 				18F7B8F01DCF430E00DB887D /* ViewController.h */,
@@ -155,6 +168,7 @@
 			files = (
 				18F7B8F81DCF430E00DB887D /* WaveTableview.xcdatamodeld in Sources */,
 				18F7B8F21DCF430E00DB887D /* ViewController.m in Sources */,
+				18A9AEE01A0C4DDF008CC2C0 /* WXWaveView.m in Sources */,
 				18F7B8EF1DCF430E00DB887D /* AppDelegate.m in Sources */,
 				18F7B8EC1DCF430E00DB887D /* main.m in Sources */,
 			);
@@ -311,6 +325,7 @@
 				18F7B9031DCF430E00DB887D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
