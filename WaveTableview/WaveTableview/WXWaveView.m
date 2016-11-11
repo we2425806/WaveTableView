@@ -71,7 +71,7 @@
     CGPathMoveToPoint(path, NULL, 0, height/2);
     CGFloat y = 0.f;
     for (CGFloat x= 0.f; x <= width; x++) {
-        y = height * cos(0.05 * (self.angularSpeed * x + self.offsetX));
+        y = height * cos(0.01 * (self.angularSpeed * x + self.offsetX));
         CGPathAddLineToPoint(path, NULL, x, y);
     }
     CGPathAddLineToPoint(path, NULL, width, height);
